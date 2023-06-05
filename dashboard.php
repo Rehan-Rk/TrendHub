@@ -65,6 +65,8 @@ if (!isset($_SESSION['customer'])) {
                         <li><i class="fas fa-envelope"></i> Email: <?php echo $_SESSION['customer']['cust_email']; ?></li>
                         <li><i class="fas fa-phone"></i> Phone: <?php echo $_SESSION['customer']['cust_phone']; ?></li>
                         <li><i class="fas fa-map-marker-alt"></i> Address: <?php echo $_SESSION['customer']['cust_address']; ?></li>
+                        <li><i class="fas fa-city"></i> City: <?php echo $_SESSION['customer']['cust_city']; ?></li>
+                        <li><i class="fas fa-map-marked"></i> State: <?php echo $_SESSION['customer']['cust_state']; ?></li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +77,6 @@ if (!isset($_SESSION['customer'])) {
                     <h3 class="card-title">Account Information</h3>
                     <ul class="list-unstyled card-content">
                         <li><i class="far fa-calendar"></i> Member Since: <?php echo date('F j, Y', strtotime($_SESSION['customer']['cust_datetime'])); ?></li>
-
                     </ul>
                 </div>
             </div>
