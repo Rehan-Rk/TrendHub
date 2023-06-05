@@ -1,7 +1,7 @@
 # A Complete PHP/MySQL based web application:
 
 
-**Check Database Settings file for Username / password -- Admin User: admin / Password: 1234**
+**Check Database Settings file for Username / password -- Admin User: its.rehan119@gmail.com / Password: 12345
 
 
 The complete ecommerce script with Paypal integration. Some of the features are as follow:
